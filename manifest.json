@@ -1,5 +1,5 @@
 {
-    "short_name":"steve-pwa",
+    "short_name":"steve",
     "display":"standalone",
     "start_url":"/steve.github.io/index.html",
     "theme_color":"orange",
