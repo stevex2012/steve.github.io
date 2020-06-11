@@ -3,7 +3,7 @@ var cacheList = [
     '/',
     'index.html',
     'main.css',
-    'youhun.jpg'
+    'icon-32.png'
 ]
 console.log('self', self);
 self.addEventListener('install', e => {
