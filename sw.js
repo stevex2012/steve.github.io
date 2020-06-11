@@ -1,4 +1,4 @@
-var cacheStorageKey = 'minimal-pwa-1'
+var cacheStorageKey = 'minimal-pwa-2'
 var cacheList = [
     '/',
     'index.html',
@@ -7,7 +7,6 @@ var cacheList = [
 ]
 console.log('self', self);
 self.addEventListener('install', e => {
-    alert('intall')
     e.waitUntil(
         caches.open(cacheStorageKey)
             .then(cache => cache.addAll(cacheList))
