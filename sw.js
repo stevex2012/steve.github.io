@@ -1,7 +1,7 @@
 var cacheStorageKey = 'minimal-pwa-2'
 var cacheList = [
-    '/',
-    'index.html',
+    '/steve.github.io/',
+    '/index.html',
     'main.css',
     'icon-32.png'
 ]
@@ -17,6 +17,7 @@ self.addEventListener('install', e => {
 self.addEventListener('fetch', function (e) {
     e.respondWith(
         caches.match(e.request).then(function (response) {
+            console.log('[Service Worker] Fetching resource: '+e.request.url);
             if (response != null) {
                 return response
             }
