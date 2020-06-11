@@ -1,7 +1,7 @@
 var cacheStorageKey = 'minimal-pwa-2'
 var cacheList = [
     '/steve.github.io/',
-    '/index.html',
+    '/steve.github.io/index.html',
     'main.css',
     'icon-32.png'
 ]
