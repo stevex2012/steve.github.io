@@ -1,0 +1,15 @@
+{
+    "short_name":"steve-pwa",
+    "display":"standalone",
+    "start_url":"/",
+    "theme_color":"orange",
+    "background_color":"#fff",
+    "icons": [
+        {
+          "src": "/icon-32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    
+}
